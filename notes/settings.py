@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(nya+c*p7@h2erkl4wjfln(zmb=$@wv95va%-c##)du5-4^=bp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://django-notesapi.herokuapp.com", "http://127.0.0.1/"]
 
 
 # Application definition
