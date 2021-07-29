@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(nya+c*p7@h2erkl4wjfln(zmb=$@wv95va%-c##)du5-4^=bp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://django-notesapi.herokuapp.com", "http://127.0.0.1/"]
+ALLOWED_HOSTS = ["https://django-notesapi.herokuapp.com", "127.0.0.1", 'localhost']
 
 
 # Application definition
@@ -131,5 +131,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 django_heroku.settings(locals())
