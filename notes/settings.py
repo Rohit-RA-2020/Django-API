@@ -133,5 +133,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
-
 django_heroku.settings(locals())
